@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Page</title>
+</head>
+<body>
+    <h1>This page belongs to : <%= username %></h1>
+    <h4>Followers</h4>
+    <p>
+        <% for(let i=0;i<followers.length();i++){%>
+            <p><%= followers[i] %></p>
+            <% } %>
+    </p>
+    <button>Follow</button>
+    <button>Message</button>
+    <button>Like&hearts;</button>
+</body>
+</html>
