@@ -1,0 +1,2 @@
+Includes in ejs are the subtemplates inside the html files.
+Like the nesting of html files.
